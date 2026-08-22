@@ -1,4 +1,4 @@
-"""Build the animated ASCII portrait + ARTA wordmark identity panel.
+"""Build the animated ASCII portrait + zero wordmark identity panel.
 
 The generated ``identity.svg`` is used above the original neofetch information
 card. Run this after regenerating ``avi-ascii.svg`` so the portrait stays in
@@ -15,9 +15,9 @@ from xml.sax.saxutils import escape
 
 ROOT = Path(__file__).resolve().parent.parent
 
-WORDMARK = "ARTA"
-USER = "arta"
-HOST = "jenesyx"
+WORDMARK = "zero"
+USER = "zero"
+HOST = "DevZeRoIR"
 
 BG = "#0d1117"
 BAR = "#161b22"
@@ -107,7 +107,7 @@ def build() -> str:
             '<set attributeName="opacity" to="0" begin="2.25s" fill="freeze"/></rect>'
         )
 
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="860" height="432" viewBox="0 0 860 432" role="img" aria-label="Animated ASCII portrait and ARTA wordmark">
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="860" height="432" viewBox="0 0 860 432" role="img" aria-label="Animated ASCII portrait and zero wordmark">
 <defs>
   <linearGradient id="frame" x1="0" y1="0" x2="1" y2="1"><stop stop-color="{GREEN}"/><stop offset=".52" stop-color="#167847"/><stop offset="1" stop-color="{BLUE}"/></linearGradient>
   <linearGradient id="word" x1="0" y1="0" x2="1" y2="1"><stop stop-color="{MINT}"/><stop offset=".58" stop-color="{GREEN}"/><stop offset="1" stop-color="{BLUE}"/></linearGradient>
@@ -123,7 +123,7 @@ def build() -> str:
 <rect x="378" y="63" width="470" height="357" rx="11" fill="{PANEL}" stroke="{STROKE}"/><circle cx="621" cy="218" r="220" fill="url(#glow)"/>
 <text x="396" y="87" font-family="ui-monospace,Consolas,monospace" font-size="10" font-weight="700" letter-spacing="1.3" fill="{BLUE}">WORDMARK.SH / --NAME {WORDMARK}</text>
 <g transform="translate(397 108)" clip-path="url(#type)" font-family="ui-monospace,Consolas,monospace" font-size="19" font-weight="700" fill="url(#word)">{first}{second}</g>{cursor}
-<text x="397" y="368" font-family="ui-monospace,Consolas,monospace" font-size="13" font-weight="700" fill="{TEXT}">ARTA BIDKHORI</text>
+<text x="397" y="368" font-family="ui-monospace,Consolas,monospace" font-size="13" font-weight="700" fill="{TEXT}">zero BIDKHORI</text>
 <text x="397" y="391" font-family="ui-monospace,Consolas,monospace" font-size="11" fill="{DIM}">FULL-STACK · AI AUTOMATION · UI/UX</text><circle cx="823" cy="386" r="4" fill="{GREEN}"/><text x="813" y="390" text-anchor="end" font-family="ui-monospace,Consolas,monospace" font-size="9" fill="{GREEN}">ONLINE</text>
 </svg>'''
 

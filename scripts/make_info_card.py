@@ -20,15 +20,15 @@ ASCII_COL_W = 370
 CARD_COL_W = 490
 
 # ---------------------------------------------------------------- EDIT ME ----
-USER = "arta"
-HOST = "jenesyx"
+USER = "zero"
+HOST = "DevZeRoIR"
 ROWS = [
-    ("Now",        "Building artabidkhori.com + my own startup + Agentic OS"),
+    ("Now",        "Building devmrzero.com + my own startup + Agentic OS"),
     ("Prev",       "Front-end work, UI design, small product builds"),
     ("Stack",      "React · Next.js · JavaScript · TypeScript · Node · Sass · Solidity · C / C#"),
     ("Highlights", "Design-to-code handoff, smart contracts, data-heavy UIs"),
     ("Learning",   "Everything, but mostly Ai and Data"),
-    ("Reach",      "@jenesyx · artabidkhori.com"),
+    ("Reach",      "@DevZeRoIR · devmrzero.com"),
 ]
 # ------------------------------------------------------------------------------
 

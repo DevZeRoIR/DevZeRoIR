@@ -1,11 +1,11 @@
-# Jenesyx Terminal — Setup Guide
+# DevZeRoIR Terminal — Setup Guide
 
 This template creates the green-black-blue terminal profile shown in this folder: a live contribution heatmap, self-typing ASCII portrait beside an animated ASCII name, and the original neofetch-style information card.
 
 ## Fastest setup
 
 1. Create a public repository named exactly like your GitHub username.
-2. Copy **the contents** of `Jenesyx` into it, excluding `.git` and `.venv` if they exist locally.
+2. Copy **the contents** of `DevZeRoIR` into it, excluding `.git` and `.venv` if they exist locally.
 3. Edit the personal text in `scripts/make_info_card.py`, identity settings in `scripts/make_identity.py`, and contact links in `README.md`.
 4. Replace `source-photo.jpg` and regenerate the portrait.
 5. Push the repository and run **Update profile art** in GitHub Actions.
@@ -50,12 +50,12 @@ Do **not** copy a nested `.git` folder or `.venv` environment. Make sure the hid
 Open `scripts/make_identity.py` and edit the identity block near the top:
 
 ```python
-WORDMARK = "ARTA"
-USER = "arta"
-HOST = "jenesyx"
+WORDMARK = "zero"
+USER = "zero"
+HOST = "DevZeRoIR"
 ```
 
-The current generator contains the `A`, `R`, and `T` glyphs needed for `ARTA`. Add another glyph to `GLYPHS` before using a different letter.
+The current generator contains the `A`, `R`, and `T` glyphs needed for `zero`. Add another glyph to `GLYPHS` before using a different letter.
 
 Open `scripts/make_info_card.py` and edit only the section marked `EDIT ME`:
 
@@ -111,7 +111,7 @@ If the portrait looks too bright, dark, or detailed, adjust `--clip`, `--gamma`,
 
 In `README.md`:
 
-- Replace `arta@github` in the terminal headings.
+- Replace `zero@github` in the terminal headings.
 - Replace the website and social URLs.
 - Replace badge labels and usernames.
 - Remove contact buttons you do not need.
@@ -152,7 +152,7 @@ The portrait and information card change only when you regenerate and commit the
 Place your source portrait in the repository, then copy this prompt into a coding assistant:
 
 ```text
-Set up the Jenesyx Terminal GitHub profile template in this repository for me.
+Set up the DevZeRoIR Terminal GitHub profile template in this repository for me.
 
 My details:
 - GitHub username: [USERNAME]

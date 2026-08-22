@@ -1,30 +1,30 @@
 <div align="center">
 
-<h3><code>arta@github ~ $ ./contributions.sh</code></h3>
+<h3><code>zero@github ~ $ ./contributions.sh</code></h3>
 
 <img src="./contrib-heatmap.svg" width="860" alt="Contribution heatmap, last 12 months" />
 
 <br><br>
 
-<h3><code>arta@github ~ $ whoami --ascii</code></h3>
+<h3><code>zero@github ~ $ whoami --ascii</code></h3>
 
-<img src="./identity.svg" width="860" alt="Animated ASCII portrait beside an animated ARTA wordmark" />
+<img src="./identity.svg" width="860" alt="Animated ASCII portrait beside an animated zero wordmark" />
 
 <br><br>
 
-<h3><code>arta@github ~ $ whoami --verbose</code></h3>
+<h3><code>zero@github ~ $ whoami --verbose</code></h3>
 
 <img src="./info-card.svg" width="860" alt="Now, previous work, stack, highlights, learning and contact information" />
 
 <br>
 
-<h3><code>arta@github ~ $ cat contact.txt</code></h3>
+<h3><code>zero@github ~ $ cat contact.txt</code></h3>
 
 <p>
-  <a href="https://artabidkhori.com/"><img src="https://img.shields.io/badge/Website-artabidkhori.com-39d353?style=for-the-badge&labelColor=161b22&color=0d1117" alt="Website" /></a>
-  <a href="https://twitter.com/jenesyx"><img src="https://img.shields.io/badge/Twitter-@jenesyx-58a6ff?style=for-the-badge&logo=x&logoColor=c9d1d9&labelColor=161b22&color=0d1117" alt="Twitter" /></a>
-  <a href="https://instagram.com/artabidkhori"><img src="https://img.shields.io/badge/Instagram-artabidkhori-e4405f?style=for-the-badge&logo=instagram&logoColor=c9d1d9&labelColor=161b22&color=0d1117" alt="Instagram" /></a>
-  <a href="https://dribbble.com/alijenesyx"><img src="https://img.shields.io/badge/Dribbble-alijenesyx-ea4c89?style=for-the-badge&logo=dribbble&logoColor=c9d1d9&labelColor=161b22&color=0d1117" alt="Dribbble" /></a>
+  <a href="https://devmrzero.com/"><img src="https://img.shields.io/badge/Website-artabidkhori.com-39d353?style=for-the-badge&labelColor=161b22&color=0d1117" alt="Website" /></a>
+  <a href="https://twitter.com/DevZeRoIR"><img src="https://img.shields.io/badge/Twitter-@DevZeRoIR-58a6ff?style=for-the-badge&logo=x&logoColor=c9d1d9&labelColor=161b22&color=0d1117" alt="Twitter" /></a>
+  <a href="https://instagram.com/devmrzero"><img src="https://img.shields.io/badge/Instagram-artabidkhori-e4405f?style=for-the-badge&logo=instagram&logoColor=c9d1d9&labelColor=161b22&color=0d1117" alt="Instagram" /></a>
+  <a href="https://dribbble.com/DevZeRoIR"><img src="https://img.shields.io/badge/Dribbble-alijenesyx-ea4c89?style=for-the-badge&logo=dribbble&logoColor=c9d1d9&labelColor=161b22&color=0d1117" alt="Dribbble" /></a>
   <a href="https://discord.gg/N4nnT7huWr"><img src="https://img.shields.io/badge/Discord-join-5865f2?style=for-the-badge&logo=discord&logoColor=c9d1d9&labelColor=161b22&color=0d1117" alt="Discord" /></a>
 </p>
 
